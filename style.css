@@ -117,6 +117,10 @@
 .bottomSection {
     background-color: #00EC5B;
     display: flex;
+}
+
+.bottomSection_container {
+    display: inline-flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -130,4 +134,16 @@
 .bottomSection button {
     background-color: #1B1F1C;
     color: #FFFFFF;
+}
+
+.lata3 {
+    position: relative;
+}
+
+.lata4 {
+    position: relative;
+}
+
+.lata5 {
+    position: relative;
 }
