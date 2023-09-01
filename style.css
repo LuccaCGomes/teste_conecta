@@ -113,3 +113,21 @@
     background-color: #1B1F1C;
     height: calc(100% - 404px);
 }
+
+.bottomSection {
+    background-color: #00EC5B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bottomSection_title {
+    font-size: 1.5rem;
+}
+
+.bottomSection button {
+    background-color: #1B1F1C;
+    color: #FFFFFF;
+}
