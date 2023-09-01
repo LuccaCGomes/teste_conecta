@@ -147,3 +147,85 @@
 .lata5 {
     position: relative;
 }
+
+
+.footer {
+    background-color: #1B1F1C;
+    color: #FFFFFF;
+}
+
+.firstFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7rem 0rem;
+}
+
+.firstFooter_title {
+    font-size: 2.5rem;
+}
+
+.contato {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.footerForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.footerForm input, textarea, select{
+    background-color: #1B1F1C;
+    border: none;
+    resize: none;
+    border-width: 1px 1px 0px 0px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+.footerForm label {
+    font-size: 0.75rem;
+}
+
+.footerForm textarea {
+    height: 8rem;
+}
+
+
+.footerForm_container {
+    display: flex;
+    gap: 1rem;
+}
+
+.telEemail {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.footerForm button {
+    margin-top: 2rem;
+    align-self: flex-end;
+}
+
+.secondFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9.375rem;
+}
+
+.secondFooter_text {
+    font-size: 0.75rem;
+}
+
+.secondFooter_container {
+    display: flex;
+    align-items: center;
+    font-size: 0.6rem;
+}
