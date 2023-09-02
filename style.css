@@ -115,12 +115,15 @@
 }
 
 .bottomSection {
+    position: relative;
     background-color: #00EC5B;
     display: flex;
+    justify-content: center;
+    padding: 5.5rem 0rem;
 }
 
 .bottomSection_container {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -137,19 +140,26 @@
 }
 
 .lata3 {
-    position: relative;
+    position: absolute;
+    left: 10%;
+    top: -5rem;
 }
 
 .lata4 {
-    position: relative;
+    position: absolute;
+    left: 15%;
+    top: 2rem;
 }
 
 .lata5 {
-    position: relative;
+    position: absolute;
+    right: 8%;
+    top: -7rem;
 }
 
 
 .footer {
+    position: relative;
     background-color: #1B1F1C;
     color: #FFFFFF;
 }
