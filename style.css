@@ -205,6 +205,24 @@
 .footerForm textarea {
     height: 8rem;
 }
+ /* form com focus */
+.footerForm input:focus {
+    outline: none;
+    border-color: #00EC5B;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.footerForm select:focus {
+    outline: none;
+    border-color: #00EC5B;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.footerForm textarea:focus {
+    outline: none;
+    border-color: #00EC5B;
+    background-color: rgba(255,255,255,0.3);
+}
 
 
 .footerForm_container {
