@@ -279,6 +279,9 @@
     background-color: rgba(255,255,255,0.3);
 }
 
+.footerForm select option {
+    background-color: #968383d2;
+}
 
 .footerForm_container {
     display: flex;
@@ -371,7 +374,7 @@
     }
 
     .footerForm {
-        width: 85%;
+        width: 75%;
     }
 
     .footerForm_container {
