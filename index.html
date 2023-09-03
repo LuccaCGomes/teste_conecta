@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/slider.css">
     <title>Conecta</title>
 </head>
 <body>
@@ -50,7 +51,53 @@
         <div class="imagesPanel">
             <div class="panelImg1"></div>
             <div class="panelRight">
-                <div class="carroussel"></div>
+                <div class="slider">
+                    <div class="sliderContent">
+                        <input type="radio" name="btnRadio" id="radio1">
+                        <input type="radio" name="btnRadio" id="radio2">
+                        <input type="radio" name="btnRadio" id="radio3">
+                        <input type="radio" name="btnRadio" id="radio4">
+
+                        <div class="slideBox primeiro">
+                            <div class="slideText">
+                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam commodo hendrerit.”</p>
+                                <p>@danielmaciel</p>
+                            </div>
+                        </div>
+                        <div class="slideBox">
+                            <div class="slideText">
+                                <p>“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.”</p>
+                                <p>@danielmaciel</p>
+                            </div>
+                        </div>
+                        <div class="slideBox">
+                            <div class="slideText">
+                                <p>“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”</p>
+                                <p>@danielmaciel</p>
+                            </div>
+                        </div>
+                        <div class="slideBox">
+                            <div class="slideText">
+                                <p>“Nam mattis, nisl nec lacinia auctor, diam enim lobortis augue, ut porttitor ante libero vitae purus.”</p>
+                                <p>@danielmaciel</p>
+                            </div>
+                        </div>
+
+                        <div class="navAuto">
+                            <div class="autobtn1"></div>
+                            <div class="autobtn2"></div>
+                            <div class="autobtn3"></div>
+                            <div class="autobtn4"></div>
+                        </div>
+
+                        <div class="navManual">
+                            <label for="radio1" class="manualbtn"></label>
+                            <label for="radio2" class="manualbtn"></label>
+                            <label for="radio3" class="manualbtn"></label>
+                            <label for="radio4" class="manualbtn"></label>
+                        </div>
+                    </div>
+                </div>
                 <div class="panelImg2">
                     <div class="panelImg2_shadow">
                         <p>Peça para seu bar</p>
@@ -112,6 +159,6 @@
             </div>
         </div>
     </footer>
-    
+    <script src="/slider.js"></script>
 </body>
 </html>
