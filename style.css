@@ -112,6 +112,9 @@
     margin: auto;
     width: 90%;
     max-width: 70rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .panelImg1 {
@@ -120,10 +123,12 @@
     background-image: url(./assets/festa.svg);
     background-size: cover;
     background-position: center;
+    min-width: 22rem;
 }
 
 .panelRight {
     width: 50%;
+    min-width: 22rem;
 }
 
 
