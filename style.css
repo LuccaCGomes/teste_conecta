@@ -52,8 +52,15 @@
     border-radius: 50px;
     cursor: pointer;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     color: #101213;
+    transition: .5s;
+    font-family: 'Inter', sans-serif;
+}
+
+.regularButton:hover {
+    opacity: 0.8;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.3);
 }
 
 .middleSection {
